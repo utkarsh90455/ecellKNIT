@@ -1,0 +1,215 @@
+body{
+    
+	background-color:#8b8386;
+
+}
+ /*INPUT CSS*/        
+.inp{	
+border-bottom: 1px solid #00B9F5;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+padding: 7px 8px;
+outline: none;	
+}
+/*INPUT CSS FINISH*/
+
+.navbar{
+	margin-top:-25px;		
+}
+.nav2{
+	
+	margin-top:px;
+}
+.nav >  li > a:hover{
+	background-color:transparent;
+	
+}
+.nav >  li > a:focus{
+	background-color:transparent;	
+}
+
+/*SIGN UP BUTTON CSS*/
+.button-link1 {
+    padding: 5px 30px;
+    background: #00B9F5;
+	border: 1px solid #00B9F5;
+    color: WHITE;   
+	}
+.button-link1:hover {  
+    background: #00A6F5;
+	border: 1px solid #00A6F5;
+    color: WHITE;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+
+
+/*MOBILE COLLASPE BUTTON*/
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white; /* change this to any color you want! */;
+}
+/*MOBILE COLLASPE BUTTON FNISH*/
+
+
+
+.glyph{
+  color:white;
+  font-size:20px;
+  margin-top:7px;
+}
+
+.new_button{
+	
+	background-color:white;
+	border:10px 10px 10px 10px;
+	border-color:#00B9F5;
+	color:black;
+	width:100%;
+	
+}
+
+
+/*BLOCK OF BOOK CSS*/
+.block{
+padding:25px;
+margin-bottom:20px;
+}
+.col-item{
+    border: 1px solid white;   
+    background: #FFF;
+}
+.col-item .photo img{
+    margin: 0 auto;	
+    width: 100%;
+	HEIGHT:30%;
+}
+.col-item .info{
+    padding: 10px;   
+    margin-top: 1px;
+}
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+.col-item .price h5{
+    line-height: 20px;
+    margin: 0;
+}
+.price-text-color{
+    color: #219FD1;
+}
+.col-item .separator{
+    border-top: 1px solid #E1E1E1;
+}
+.clear-left{
+    clear: left;
+}
+.col-item .separator p{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.col-item .separator p i{
+    margin-right: 5px;
+}
+.col-item .btn-add{
+    width: 50%;
+    float: left;
+}
+.col-item .btn-add{
+    border-right: 1px solid #E1E1E1;
+}
+.col-item .btn-details{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+/*BLOCK OF BOOK CSS FINISH*/
+
+
+
+
+
+
+
+
+/*SIGN UP BUTTON CSS*/
+.button-link {
+    padding: 7px 61px;
+    background: #00B9F5;
+	border: 1px solid #00B9F5;
+    color: WHITE;
+    margin-right:60px;	
+	}
+
+.button-link:hover {  
+    background: #00A6F5;
+	border: 1px solid #00A6F5;
+    color: WHITE;	
+}
+/*UPPER MOST BUTTON CSS FINISH*/
+
+
+
+/*case avaibility input box style*/
+
+.status-available{
+color:#2FC332;
+}
+.status-not-available{
+color:#00A6F5;
+}
+/*FINISH */
+
+
+
+
+
+ /*FOR PLACEHOLDER IN LOWERCASE*/
+.input1 { text-transform: uppercase;}
+::-webkit-input-placeholder { /* WebKit browsers */text-transform: none;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */text-transform: none;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */text-transform: none;}
+:-ms-input-placeholder { /* Internet Explorer 10+ */text-transform: none;}
+/*FINSH*/ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .modal-content{
+	
+	border-radius:0px;
+	
+}
+
+/*FOOTER START*/
+
+#footer{
+margin-top:70px;
+background-color:white;
+}
+
+/*FOOTER FINISH*/
+
+
+/* override bootstrap 3 class to remove scrollbar from modal backdrop
+   when not necessary */
+.modal {
+  overflow-y: hide;
+}
+/* custom class to override .modal-open */
+.modal-noscrollbar {
+    margin-right: 0 !important;
+}
